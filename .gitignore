@@ -24,3 +24,7 @@ Config/DefaultEditorUserSettings.ini
 
 # Cursor specific
 .cursor/
+
+# Clangd specific
+.clangd
+.clang-format
