@@ -1,0 +1,82 @@
+# Unreal Engine Build & Generated Files (don't need indexing)
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+
+# Compiled Assets & Cache
+*.umap.bak
+*.uasset.bak
+*.uasset.meta
+*.umap.meta
+
+# Large Binary Content Files (unless you need to search them)
+# Uncomment these if you have many large assets:
+Content/**/*.uasset
+Content/**/*.umap
+Content/**/*.png
+Content/**/*.jpg
+Content/**/*.jpeg
+Content/**/*.tga
+Content/**/*.exr
+Content/**/*.dds
+Content/**/*.hdr
+
+# Shader Files
+Intermediate/ShaderAutogen/
+Saved/ShaderDebugInfo/
+
+# Compiled C++ Objects
+*.obj
+*.o
+*.pdb
+*.dll
+*.lib
+*.exp
+
+# IDE & Editor Files
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.user
+*.userprefs
+*.VC.db
+
+# Logs
+*.log
+*.tlog
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Collections (usually auto-generated)
+Content/Collections/
+Content/**/Collections/
+
+# Exclude empty Content subfolders from indexing (they're just placeholder folders)
+# Note: If you create Blueprints or other assets you need to search, comment these out
+# Content/Developers/
+
+# Temporary & Autosave Files
+Saved/Autosaves/
+*.tmp
+*.temp
+
+# Exclude Unreal Engine Installation (huge, not needed for indexing)
+# Note: The UE5 folder is excluded via workspace settings
+
+# IMPORTANT: Keep these indexed for AI context (source code, configs, project files):
+# Source/ files are ALWAYS accessible - I can read them on demand
+# Config/ files are accessible when needed
+# *.uproject and *.code-workspace are accessible
+
+# Note: The AI (Cursor) can read files explicitly when you ask questions,
+# so even if something isn't "indexed", I can still access it when needed.
+# Indexing mainly helps with search and quick context.
+
