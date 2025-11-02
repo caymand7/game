@@ -1,0 +1,31 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+*.log
+*.tlog
+
+# Ignore built data
+*.dll
+*.exe
+*.pdb
+
+# Ignore build configuration
+Build/
+
+# Ignore user settings
+*.user
+*.userprefs
+
+# Ignore auto-generated config
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorUserSettings.ini
