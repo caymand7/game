@@ -6,10 +6,28 @@
 		},
 		{
 			"name": "UE5",
-			"path": "D:\\Games\\Epic Games\\UE_5.6"
+			"path": "D:\\Games\\Epic Games\\UE_5.6",
+			"settings": {
+				"files.exclude": {
+					"**/*": true
+				},
+				"search.exclude": {
+					"**/*": true
+				}
+			}
 		}
 	],
 	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true
+		},
+		"search.exclude": {
+			"**/Binaries": true,
+			"**/Intermediate": true,
+			"**/DerivedDataCache": true,
+			"**/Saved": true
+		},
 		"typescript.tsc.autoDetect": "off",
 		"npm.autoDetect": "off",
 		"terminal.integrated.env.windows": {
