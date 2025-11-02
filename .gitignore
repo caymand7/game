@@ -13,19 +13,14 @@ Saved/
 *.ipch
 *.log
 *.tlog
-
-# Ignore built data
+*.pdb
 *.dll
 *.exe
-*.pdb
-
-# Ignore build configuration
 Build/
-
-# Ignore user settings
 *.user
 *.userprefs
-
-# Ignore auto-generated config
 Config/DefaultEditorPerProjectUserSettings.ini
 Config/DefaultEditorUserSettings.ini
+
+# Cursor specific
+.cursor/
